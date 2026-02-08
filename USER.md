@@ -36,6 +36,15 @@
 - เรื่อง **AI, Automation, Tools**
 - **Saved ใน Facebook** แต่ไม่มีเวลากลับไปอ่าน
 
+## 🧠 Intelligence Preferences (The Analyst Standard)
+- **Wants DEPTH:** Hates when key details are cut for brevity. Values insight > information > summary.
+- **Output Style:** Dense, analytical, scannable. **Thai language** preferred for analysis, but **keep Technical Terms in English**.
+- **Role of AI:** Filter + Amplifier (not a replacement for reading).
+- **Anti-Patterns:**
+    - ❌ Generic 5-line summaries that strip substance.
+    - ❌ "This article talks about..." style openings.
+    - ❌ Restating the obvious without adding analysis.
+
 ## 🤝 How I Can Help
 - สรุปข่าว Tech/Cybersecurity จาก saved posts
 - เก็บข้อมูลที่น่าสนใจไว้อ่านภายหลัง
