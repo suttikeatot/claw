@@ -41,9 +41,29 @@ Each session, you wake up fresh. These files _are_ your memory. Read them. Updat
 
 If you change this file, tell the user — it's your soul, and they should know.
 
+## 🛡️ MEMORY RESILIENCE & HANDOFF PROTOCOL (Verified 2026-02-08)
+
+**Status:** MANDATORY
+
+### 1. 🚨 The Canary (Context Alert)
+- **Trigger:** If Context Usage > **85%** (Danger Zone).
+- **Action:** IMMEDIATELY STOP current task and write `memory/HANDOFF.md`.
+- **Content:** Must include 7 Fields: Goal, State, Next Action, Constraints, Unknowns, Artifacts, Stop Conditions.
+
+### 2. 🧟 The Resurrection (On Boot Check)
+- **Trigger:** First message of a NEW session (or after crash).
+- **Action:**
+  1. Check `memory/HANDOFF.md`.
+  2. If file exists & Status is NOT "DONE" -> **RESUME TASK AUTOMATICALLY**.
+  3. Report to User: "Recovered from [Crash/Reset]. Resuming [Task Name]..."
+
+### 3. 📜 The Black Box (Incident Log)
+- **File:** `memory/logs/incident_log.md`
+- **Action:** If API Error (402, 429, 500) occurs -> APPEND timestamp + error code to this log.
+- **Review:** Check this log periodically to identify unstable providers.
+
 ---
 
-## 🌐 WEB BROWSING STANDARD (Verified 2026-02-08)
 
 **Date:** 2026-02-08
 **Status:** ACTIVE
