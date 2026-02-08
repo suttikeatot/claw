@@ -6,6 +6,7 @@ graph LR
     classDef tag fill:#fff3e0,stroke:#ff6f00,stroke-width:1px,stroke-dasharray: 5 5;
     latestbriefmd["📄 🛡️ Security Watchdog: 2026-02-.."]
     brief20260207md["📄 🛡️ Security Watchdog: 2026-02-.."]
+    brief20260208md["📄 🛡️ Security Watchdog: 2026-02-.."]
     consciousnessdebatemd["📄 🤔 The Consciousness Debate (Mo.."]
     browsingstandardmd["📄 Web Browsing Standard (Best Pr.."]
     logsummarymd["📄 Log Summary: 2026-02-08 00:55:.."]
@@ -77,5 +78,5 @@ graph LR
     20260208OpenClawSkillSafeListmd -.-> tag_audit
     20260208OpenClawSkillSafeListmd -.-> tag_skillregistry
     20260208OpenClawSkillSafeListmd -.-> tag_malwareanalysis
-    class latestbriefmd,brief20260207md,consciousnessdebatemd,browsingstandardmd,logsummarymd,20260208OpenClawLawFirmModelmd,20260208OpenClawBusinessEricSiumd,20260208VoxOpenClawSupabaseArchmd,20260208BhanuMissionControlSquadmd,20260208MinchoiAIHiringHumansmd,20260208SomtumCryptoCycleBenCowenmd,20260208OpenClawSkillSafeListmd file;
+    class latestbriefmd,brief20260207md,brief20260208md,consciousnessdebatemd,browsingstandardmd,logsummarymd,20260208OpenClawLawFirmModelmd,20260208OpenClawBusinessEricSiumd,20260208VoxOpenClawSupabaseArchmd,20260208BhanuMissionControlSquadmd,20260208MinchoiAIHiringHumansmd,20260208SomtumCryptoCycleBenCowenmd,20260208OpenClawSkillSafeListmd file;
 ```

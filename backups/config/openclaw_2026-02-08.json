@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.6-3",
+    "lastTouchedAt": "2026-02-08T17:25:44.633Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-07T05:37:38.678Z",
+    "lastRunVersion": "2026.2.3-1",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "google-antigravity:suttikeat.oth@gmail.com": {
+        "provider": "google-antigravity",
+        "mode": "oauth",
+        "email": "suttikeat.oth@gmail.com"
+      },
+      "google:manual": {
+        "provider": "google",
+        "mode": "token"
+      },
+      "kimi-coding:default": {
+        "provider": "kimi-coding",
+        "mode": "api_key"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "google-antigravity/gemini-3-pro-high",
+        "fallbacks": [
+          "kimi-coding/k2p5"
+        ]
+      },
+      "models": {
+        "google-antigravity/claude-opus-4-5-thinking": {},
+        "kimi-coding/k2p5": {
+          "alias": "Kimi K2.5"
+        },
+        "google-antigravity/gemini-3-pro-high": {}
+      },
+      "workspace": "/home/ec2-user/.openclaw/workspace",
+      "memorySearch": {
+        "enabled": false
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto"
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "botToken": "REDACTED",
+      "groupPolicy": "allowlist",
+      "streamMode": "partial"
+    },
+    "discord": {
+      "enabled": true,
+      "token": "REDACTED",
+      "groupPolicy": "allowlist"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "REDACTED"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "google-antigravity-auth": {
+        "enabled": true
+      },
+      "telegram": {
+        "enabled": true
+      },
+      "discord": {
+        "enabled": true
+      }
+    }
+  }
+}
