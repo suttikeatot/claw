@@ -177,15 +177,42 @@ agent-browser wait 5000
 - After proper scrolling: 18, 30, 40, 50, 60+ posts
 - Scroll area: "ทั้งหมด" (main content), not sidebar
 
-## 🌐 WEB BROWSING STANDARD (Verified 2026-02-07)
+## 🌐 WEB BROWSING STANDARD (Verified 2026-02-09)
 
-**Date:** 2026-02-07
+**Date:** 2026-02-09
 **Status:** ACTIVE
 
 ### Rule:
 - **ALWAYS use `agent-browser` (CLI tool)** for web interaction.
 - **NEVER** use the built-in `browser` tool (it is unreliable/broken).
 - **NEVER** use `web_fetch` for dynamic sites (React/SPA) like Facebook, Moltbook, Twitter.
+
+### CRITICAL: Proper Session Cleanup (Updated 2026-02-09)
+
+**⚠️ ต้อง SAVE STATE ก่อน CLOSE เสมอ — ไม่งั้นเกิด ZOMBIE PROCESSES**
+
+**Correct Sequence:**
+```bash
+# 1. ทำงานเสร็จ → Save state ก่อน
+agent-browser state save facebook-session.json
+
+# 2. ค่อยปิด browser
+agent-browser close
+
+# 3. (Optional) ถ้าไม่ต้องการ state อีก → ลบไฟล์
+rm facebook-session.json
+```
+
+**❌ Wrong (ทำให้เกิด zombie chrome กิน RAM):**
+```bash
+# เปิด browser → ทำงาน → หยุด/ปิดกลางคัน โดยไม่ close
+# ผล: zombie processes ค้างกิน RAM ~500MB+
+```
+
+**Cleanup Zombie (เมื่อเกิดแล้ว):**
+```bash
+killall -9 chrome-headless-shell
+```
 
 ### Usage:
 - **Open:** `agent-browser open <url>`
