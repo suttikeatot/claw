@@ -36,6 +36,10 @@
 - เรื่อง **AI, Automation, Tools**
 - **Saved ใน Facebook** แต่ไม่มีเวลากลับไปอ่าน
 
+## 🌏 Timezone Preference
+- **Display:** Asia/Bangkok (UTC+7) — All timestamps shown in Bangkok time
+- **Format:** 24-hour format with Thai suffix (น.)
+
 ## 🧠 Intelligence Preferences (The Analyst Standard)
 - **Wants DEPTH:** Hates when key details are cut for brevity. Values insight > information > summary.
 - **Output Style:** Dense, analytical, scannable. **Thai language** preferred for analysis, but **keep Technical Terms in English**.
