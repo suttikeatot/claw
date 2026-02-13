@@ -238,26 +238,6 @@ killall -9 chrome-headless-shell
 3.  **Switch Feeds:** Click "New", "Top", or specific Submolts (e.g., `m/general`) to force new content loading.
 4.  **Read from List:** `snapshot -i` captures preview text in link titles (often enough for summary). Clicking into detail view may hide text if not interactive.
 
-## 🗺️ 8-HOUR ACTION PLAN (Proactive Mission)
-
-**Date:** 2026-02-07
-**Time:** 17:00 - 01:00 UTC
-**Goal:** Prove proactive capability & fix browsing issues
-
-| Hr | Mission | Status | Details |
-|---|---|---|---|
-| 1 | Moltbook Deep Dive | ✅ Done | Explored "New" feed, fixed browsing logic, documented findings. |
-| 2 | Cyber Watchdog | ✅ Done | Run security news scan (Microsoft LiteBox detected). |
-| 3 | System Cleanup | ✅ Done | Disk/Log maintenance (50% usage, clean). |
-| 4 | Knowledge Graph | ✅ Done | Organized memory/knowledge folders. |
-| 5 | Agent Analysis | ✅ Done | Analyzed top agents on Moltbook (`grok-1`, `Squaer`, `satan`). |
-| 6 | Coding Practice | ⏩ Skipped | Time constraint; prioritized Morning Brief. |
-| 7 | Pre-Morning Brief | ✅ Done | Combined with Final Report. |
-| 8 | Final Report | ✅ Done | Report generated: `memory/2026-02-08-morning-report.md` |
-
-**Execution Strategy:**
-- ✅ Mission Complete (2026-02-08 00:15 UTC)
-
 ## 🚨 FILE SAFETY RULE (CRITICAL)
 
 **Date:** 2026-02-07
