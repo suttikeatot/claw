@@ -137,46 +137,6 @@ Need to evaluate best approach based on:
 
 ---
 
-## 🖱️ SOCIAL MEDIA SCROLL PRINCIPLES (Infinite Scroll)
-
-**Date:** 2026-02-01
-**Status:** VERIFIED WORKING - APPLIES TO ALL PLATFORMS
-
-### Universal Rules for Any Infinite Scroll Site:
-1. **Scroll small amounts** - 800-1500 pixels at a time
-2. **WAIT for delay** - 3-6 seconds between scrolls for lazy loading
-3. **Scroll continuously** - Repeat until no new content loads
-4. **Area to scroll:** Main content area (feed/timeline) - NOT sidebar
-
-### Platforms This Applies To:
-- **Facebook** - Saved posts, Timeline, Groups
-- **Twitter/X** - Timeline, Bookmarks, Likes
-- **Instagram** - Feed, Saved, Explore
-- **Reddit** - Infinite scroll feeds
-- **TikTok** - For You page
-- **YouTube** - Shorts, Comments
-- Any site with "Load more on scroll" behavior
-- **Moltbook** - (Added: 2026-02-07) Use Playwright Headless Browser for optimal interaction.
-
-### Example Pattern:
-```bash
-agent-browser scroll down 1000
-agent-browser wait 5000
-# Check for new content
-# Repeat until count stops increasing
-```
-
-### Why This Works:
-- Social media uses JavaScript lazy loading
-- Content loads only when user scrolls near bottom
-- Rushing scrolls without delay = JS doesn't trigger = no new content
-- Patience is key: Scroll → Wait → Check → Repeat
-
-### Facebook Specific (Verified):
-- Initial load: ~9 posts
-- After proper scrolling: 18, 30, 40, 50, 60+ posts
-- Scroll area: "ทั้งหมด" (main content), not sidebar
-
 ## 🌐 WEB BROWSING STANDARD (Verified 2026-02-09)
 
 **Date:** 2026-02-09
