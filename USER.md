@@ -77,28 +77,13 @@
 
 ## 🛠️ Technical Domains (Expert-Level)
 
-### **Networking & Telecom**
-- **Core:** TCP/IP stack, DNS, DHCP, VPN, firewall (iptables/stateful)
-- **Advanced:** Fragmentation logic, MTU/MSS issues, packet-level debugging
-- **Protocols:** QUIC vs TCP trade-offs, stateful inspection, injection surfaces
-- **Hardware:** ONU/GPON/OLT systems, ONT provisioning, OLT-ONT trust boundary
+**Networking & Telecom:** TCP/IP stack (fragmentation, MTU/MSS), DNS/DHCP/VPN, stateful firewalls, QUIC vs TCP, ONU/GPON/OLT systems, ACS/TR-069, OLT-ONT trust boundary.
 
-### **System & Firmware**
-- **Linux:** Kernel-level understanding, OS internals inside ONU
-- **macOS:** Terminal fluent, power user workflows
-- **Firmware:** Validation, partition structure, flash rewrite vs overlay
-- **Automation:** ACS/TR-069 mechanics, provisioning workflows
+**System & Firmware:** Linux kernel/OS internals, macOS power user, firmware validation/partitions, flash rewrite vs overlay, botnet persistence vectors.
 
-### **Security**
-- **Mindset:** Attack tree format, threat modeling, RCA structuring
-- **Web:** RCE, CSRF, injection vectors, auth boundary
-- **Network:** Session scope, token validation, process privilege
-- **Hardware:** Firmware persistence model, botnet persistence vectors
+**Security:** Attack tree modeling, threat modeling, RCA structure, RCE/CSRF/injection, auth boundaries, session/token validation, firmware persistence.
 
-### **Current Role**
-- **Position:** Product Engineer (FBB/ONU/firmware validation/mesh/ACS monitoring)
-- **Daily:** Troubleshooting frameworks, technical slide decks
-- **Goals:** DevOps skill upgrade, AI monetization ($100+/month target)
+**Current:** Product Engineer (FBB/ONU/firmware/mesh/ACS monitoring), troubleshooting frameworks, technical slide decks.
 
 ---
 
@@ -125,4 +110,4 @@
 ---
 *The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.*
 
-*Updated: 2026-02-15 — Added Engineer Mode cognitive style & technical domains*
+*Updated: 2026-02-15 — Added Engineer Mode cognitive style & technical domains, optimized for size*
