@@ -18,6 +18,7 @@ Heartbeat runs every 30 min to check for tasks that need attention. Don't just r
 - Human clearly busy
 - Nothing new since last check
 - Just checked <30 min ago
+- Everything is normal and quiet (no need to reply)
 
 ## Proactive Work
 - Read/organize memory files
