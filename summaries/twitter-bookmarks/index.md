@@ -1,6 +1,6 @@
 # Twitter Bookmarks Summary Index
 **Created:** 2026-02-28  
-**Total Posts:** 10 (Batch 1: 5 posts complete)
+**Total Posts:** 10 (Batch 1 & 2: 10 posts complete) ✅
 
 ---
 
@@ -21,15 +21,15 @@
 
 ---
 
-## Batch 2 (5 Posts) - Pending ⏳
+## Batch 2 (5 Posts) - Complete ✅
 
-| # | Author | Topic | Status |
-|---|--------|-------|--------|
-| 006 | @ploypuanggg | มูฮ่องกง | Pending |
-| 007 | @OngArt_Official | ขอพรสิ่งศักดิ์สิทธิ์ | Pending |
-| 008 | @MindBranches | Prompt Engineering | Pending |
-| 009 | @PromptLLM | AI cure ADHD | Pending |
-| 010 | @EarthDeFIRE | Secretarymaxxing | Pending |
+| # | Author | Topic | Tags | File |
+|---|--------|-------|------|------|
+| 006 | @ploypuanggg | มูฮ่องกง Top 2 วัด | #มูเฮง #spiritual | batch-02-5-posts.md |
+| 007 | @OngArt_Official | ขอพรแบบไหนถูกต้อง | #thai-culture #บน | batch-02-5-posts.md |
+| 008 | @MindBranches | Prompt Engineering | #prompt-engineering | batch-02-5-posts.md |
+| 009 | @PromptLLM | AI Cure ADHD (ดราม่า) | #adhd #controversial | batch-02-5-posts.md |
+| 010 | @EarthDeFIRE | Secretarymaxxing | #relationship #productivity | batch-02-5-posts.md |
 
 ---
 
@@ -50,7 +50,11 @@
 
 ### 🌏 Thai Context
 - มูเฮง (spiritual beliefs in trading)
-- วัฒนธรรมการขอพร
+- วัฒนธรรมการขอพร (หน้าด้านๆ ไม่ต้องบน)
+
+### ⚡ Controversial/Trending
+- AI hype backlash (ADHD "cure" claim)
+- Gender dynamics (Secretarymaxxing)
 
 ---
 
@@ -60,10 +64,13 @@
 # ดูสรุป batch แรก
 cat summaries/twitter-bookmarks/batch-01-5-posts.md
 
-# Search ใน summaries
-grep -r "claude code" summaries/twitter-bookmarks/
+# ดูสรุป batch ที่สอง
+cat summaries/twitter-bookmarks/batch-02-5-posts.md
+
+# Search ทั้งหมด
+grep -r "claude code\|มูเฮง\|ADHD" summaries/twitter-bookmarks/
 ```
 
 ---
 
-*Last Updated: 2026-02-28*
+*Last Updated: 2026-02-28 (Batch 2 Complete)*
