@@ -52,6 +52,51 @@
 3. User will message "กดแล้ว" to proceed
 4. Save cookies/session for future use
 
+---
+
+## 📘 FACEBOOK LOGIN - QUICK REFERENCE
+
+**Date:** 2026-02-28  
+**Status:** USE WHENEVER FACEBOOK LOGIN NEEDED
+
+### ✅ CORRECT WAY (Session Already Exists)
+```bash
+# 1. Close any existing browser
+agent-browser close
+
+# 2. Open Facebook WITH --state flag (CRITICAL!)
+agent-browser open https://facebook.com --state fb-session.json
+
+# 3. Verify login success
+agent-browser snapshot -i
+# Should see: "หน้าหลัก", "ที่บันทึกไว้", user profile
+
+# 4. Refresh session (optional but recommended)
+agent-browser state save fb-session.json
+```
+
+### ❌ COMMON MISTAKE (DON'T DO THIS)
+```bash
+agent-browser open https://facebook.com
+agent-browser state load fb-session.json   # ❌ WON'T WORK!
+# Error: "Storage state must be loaded at browser launch"
+```
+
+### 📝 Session File Location
+- **File:** `fb-session.json` (in workspace root)
+- **Contains:** Cookies, localStorage, sessionStorage
+- **Validity:** Usually lasts weeks if refreshed regularly
+
+### 🔧 When Session Expires
+If `--state` doesn't work (redirected to login page):
+1. Ask user for password
+2. Login manually via agent-browser
+3. Save new session: `agent-browser state save fb-session.json`
+
+### ⚠️ KEY LESSON
+**State must be loaded at browser launch, not after!**
+Use `--state` flag with `open`, never use `state load` after opening.
+
 ## 🔄 AUTOMATIC ERROR RECOVERY PROTOCOL
 
 **Date:** 2026-02-02

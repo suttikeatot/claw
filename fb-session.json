@@ -21,16 +21,6 @@
       "sameSite": "None"
     },
     {
-      "name": "wd",
-      "value": "1280x720",
-      "domain": ".facebook.com",
-      "path": "/",
-      "expires": 1771854649,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
       "name": "ps_l",
       "value": "1",
       "domain": ".facebook.com",
@@ -51,48 +41,48 @@
       "sameSite": "None"
     },
     {
-      "name": "locale",
-      "value": "th_TH",
-      "domain": ".facebook.com",
-      "path": "/",
-      "expires": 1771420925.347564,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "c_user",
       "value": "1451656190",
       "domain": ".facebook.com",
       "path": "/",
-      "expires": 1802785850.155554,
+      "expires": 1803788235.449075,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
-      "name": "fr",
-      "value": "250Bc3AJ8wniBBRTD.AWedhJTfp3DewpdMyJAREmOvAHj39Nat2ENBzjwMCEmgCH9BT4k.BpkyC5..AAA.0.0.BpkyC5.AWe1fS_vGm3OtIKxZ29cQwQLFO4",
+      "name": "wd",
+      "value": "1280x720",
       "domain": ".facebook.com",
       "path": "/",
-      "expires": 1779025850.155664,
+      "expires": 1772857035,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "fr",
+      "value": "1Q3nJnHI2UY4NDrp9.AWfe0Ed6-Io257bOKe_4FXIt1m5QCvLsURRYS8kmqWKZq45rYm8.BpomxL..AAA.0.0.BpomxL.AWcBag4qh1TAmjbVQpcdW2578xk",
+      "domain": ".facebook.com",
+      "path": "/",
+      "expires": 1780028235.44937,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "xs",
-      "value": "18%3ABhD92mmbHfRQ4A%3A2%3A1770816193%3A-1%3A-1%3A%3AAcxowEe108yHKU0_bXUAvlr06novnSVpGeHbXqJBoQ",
+      "value": "18%3ABhD92mmbHfRQ4A%3A2%3A1770816193%3A-1%3A-1%3A%3AAcyRgK1ZcCxK8g8ICnKk1ZdcXvb9rQ-1Yo2xLnoKQA",
       "domain": ".facebook.com",
       "path": "/",
-      "expires": 1802785850.155715,
+      "expires": 1803788235.449596,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "presence",
-      "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1771249852659%2C%22v%22%3A1%7D",
+      "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1772252237489%2C%22v%22%3A1%7D",
       "domain": ".facebook.com",
       "path": "/",
       "expires": -1,
@@ -107,11 +97,11 @@
       "localStorage": [
         {
           "name": "screen_time_period_logging_facebook",
-          "value": "{\"actorId\":\"1451656190\",\"currentIntervalLastTick\":1771249872,\"currentIntervalStart\":1771249847,\"initRemoteAgg\":{\"timestamp\":1771249824,\"today_s\":3872},\"intervals\":[{\"end\":1770816236,\"start\":1770816218}],\"lastCallbackAttempt\":1771249847,\"localStorageId\":\"89175033\",\"syncedL24HS\":null,\"syncedTodayS\":null}"
+          "value": "{\"actorId\":\"1451656190\",\"currentIntervalLastTick\":1772252243,\"currentIntervalStart\":1772252234,\"initRemoteAgg\":{\"timestamp\":1772252131,\"today_s\":3303},\"intervals\":[{\"end\":1770816236,\"start\":1770816218},{\"end\":1771249872,\"start\":1771249847}],\"lastCallbackAttempt\":1772252234,\"localStorageId\":\"60729137\",\"syncedL24HS\":null,\"syncedTodayS\":null}"
         },
         {
           "name": "last_headload_time",
-          "value": "1771249850166"
+          "value": "1772252235527"
         },
         {
           "name": "RSTData",
@@ -119,7 +109,7 @@
         },
         {
           "name": "hb_timestamp",
-          "value": "1771249849709"
+          "value": "1772252235070"
         },
         {
           "name": "mw_encrypted_backups_restore_upsell_first_impression_time_key",
@@ -127,15 +117,15 @@
         },
         {
           "name": "signal_flush_timestamp",
-          "value": "1771249849948"
+          "value": "1772252235140"
         },
         {
           "name": "Session",
-          "value": "j0yvqs:1771249899433"
+          "value": "denusi:1772252268209"
         },
         {
           "name": "banzai:last_storage_flush",
-          "value": "1771249852687.5"
+          "value": "1772252236914.5"
         }
       ]
     }
