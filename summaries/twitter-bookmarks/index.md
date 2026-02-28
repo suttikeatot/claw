@@ -1,6 +1,6 @@
 # Twitter Bookmarks Summary Index
 **Created:** 2026-02-28  
-**Total Posts:** 10 (Batch 1 & 2: 10 posts complete) ✅
+**Total Posts:** 20 (Batch 1, 2, 3: 20 posts complete) ✅
 
 ---
 
@@ -33,7 +33,28 @@
 
 ---
 
-## Key Themes Found
+## Batch 3 (10 Posts) - Complete ✅
+
+| # | Author | Topic | Tags | File |
+|---|--------|-------|------|------|
+| 011 | @CebiGreen | Resume F Pattern | #resume #career | batch-03-10-posts.md |
+| 012 | @nchdaq | กำไลหิน Dreamis | #หินพลังงาน | batch-03-10-posts.md |
+| 013 | @yoxrgravity | หินมงคล Dreamis | #แบรนด์ไทย | batch-03-10-posts.md |
+| 014 | @elvissun | OpenClaw Agent Swarm [DETAILED] | #openclaw #codex | batch-03-10-posts.md |
+| 015-020 | Various | Link-only posts | - | Skipped |
+
+---
+
+## Summary Statistics
+
+| Metric | Count |
+|--------|-------|
+| **Total Posts Analyzed** | 20 |
+| **Substantive Posts** | 14 |
+| **Link-only Skipped** | 6 |
+| **Batch 1** | 5 posts (Tech/Productivity) |
+| **Batch 2** | 5 posts (Culture/Controversial) |
+| **Batch 3** | 6 posts (Career/Spiritual/Agent Swarm) |
 
 ### 🚀 Productivity & Development
 - Vibe coding principles (ship fast, don't rebuild)
@@ -61,16 +82,15 @@
 ## How to Use
 
 ```bash
-# ดูสรุป batch แรก
-cat summaries/twitter-bookmarks/batch-01-5-posts.md
-
-# ดูสรุป batch ที่สอง
-cat summaries/twitter-bookmarks/batch-02-5-posts.md
+# ดูสรุปแต่ละ batch
+cat summaries/twitter-bookmarks/batch-01-5-posts.md  # Posts 001-005
+cat summaries/twitter-bookmarks/batch-02-5-posts.md  # Posts 006-010
+cat summaries/twitter-bookmarks/batch-03-10-posts.md # Posts 011-020
 
 # Search ทั้งหมด
-grep -r "claude code\|มูเฮง\|ADHD" summaries/twitter-bookmarks/
+grep -r "openclaw\|dreamis\|resume" summaries/twitter-bookmarks/
 ```
 
 ---
 
-*Last Updated: 2026-02-28 (Batch 2 Complete)*
+*Last Updated: 2026-02-28 (Batch 3 Complete - 20 Posts Total)*
